@@ -9,10 +9,21 @@ from fastai import *
 from fastai.vision import *
 
 # export_file_url = 'https://www.dropbox.com/s/v6cuuvddq73d1e0/export.pkl?raw=1'
-export_file_url = 'https://www.dropbox.com/s/6bgq8t6yextloqp/export.pkl?raw=1'
-export_file_name = 'export.pkl'
+export_file_url = 'https://drive.google.com/uc?export=download&id=1B4vDCZ6Pz8GkCzNT0ueYfmZZEVYWB3dr'
+export_file_name = 'senadores.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['Acir_Gurgacz', 'Aecio_Neves', 'Aloysio_Nunes_Ferreira', 'Alvaro_Dias', 'Ana_Amelia', 'Angela_Portela', 'Antonio_Anastasia', 
+           'Antonio_Carlos_Valadares', 'Armando_Monteiro', 'Ataides_Oliveira', 'Benedito_de_Lira', 'Blairo_Maggi', 'Cassio_Cunha_Lima', 
+           'Cidinho_Santos', 'Ciro_Nogueira', 'Cristovam_Buarque', 'Dalirio_Beber', 'Dario_Berger', 'Davi_Alcolumbre', 'Edison_Lobao', 
+           'Eduardo_Amorim', 'Eduardo_Braga', 'Elmano_Ferrer', 'Eunicio_Oliveira', 'Fatima_Bezerra', 'Fernando_Bezerra_Coelho', 
+           'Fernando_Collor', 'Flexa_Ribeiro', 'Garibaldi_Alves_Filho', 'Gladson_Cameli', 'Gleisi_Hoffmann', 'Helio_Jose', 'Humberto_Costa', 
+           'Ivo_Cassol', 'Jader_Barbalho', 'Joao_Alberto_Souza', 'Joao_Capiberibe', 'Jorge_Viana', 'Jose_Agripino', 'Jose_Anibal', 
+           'Jose_Maranhao', 'Jose_Medeiros', 'Jose_Pimentel', 'Katia_Abreu', 'Lasier_Martins', 'Lidice_da_Mata', 'Lindbergh_Farias', 
+           'Lucia_Vania', 'Magno_Malta', 'Maria_do_Carmo_Alves', 'Marta_Suplicy', 'Omar_Aziz', 'Otto_Alencar', 'Paulo_Bauer', 'Paulo_Paim', 
+           'Paulo_Rocha', 'Pedro_Chaves', 'Raimundo_Lira', 'Randolfe_Rodrigues', 'Regina_Sousa', 'Reguffe', 'Renan_Calheiros', 
+           'Ricardo_Ferraco', 'Roberto_Muniz', 'Roberto_Requiao', 'Romario', 'Romero_Juca', 'Ronaldo_Caiado', 'Rose_de_Freitas', 
+           'Sergio_Petecao', 'Simone_Tebet', 'Tasso_Jereissati', 'Telmario_Mota', 'Valdir_Raupp', 'Vanessa_Grazziotin', 
+           'Vicentinho_Alves', 'Waldemir_Moka', 'Wellington_Fagundes', 'Wilder_Morais', 'Zeze_Perrella']
 path = Path(__file__).parent
 
 app = Starlette()
